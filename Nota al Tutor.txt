@@ -1,0 +1,6 @@
+Hola, el concepto que busco al menos en estas instancias es que sea un sitio web fácil de entender, simple e intuitivo.
+Las páginas "Lenceria" y "envíos" (ubicada en el footer) estan estiladas superficialmente, además de por supuesto el index.
+Para desarrollar formularios sinceramente no me alcanzo el tiempo debido a otras responsabilidades. 
+Una consulta que tendría y no pude resolver durante el desarrollo, ya que había realizado mucho código y no quería arruinarlo era la de por que se me generaba un scroll horizontal. Creo suponer que es por darle un ancho de 100vw a los bloques principales.
+Desde ya gracias.
+Gil Ciro.
