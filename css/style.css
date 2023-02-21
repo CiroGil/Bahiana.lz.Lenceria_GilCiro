@@ -154,6 +154,12 @@ font-family: 'Tangerine', cursive;*/
     font-size: 2em;
     color: whitesmoke;
 }
+.subtitulo_pages{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Poiret One';
+    font-size: 1.5em;
+    color: whitesmoke;
+}
 
 .parrafo_pages{
     display: none;
@@ -169,7 +175,7 @@ font-family: 'Tangerine', cursive;*/
     justify-content: center;
 }
 
-.parrafo_envios_movil{
+.parrafo_movil{
     display: inline;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Poiret One';
@@ -189,6 +195,16 @@ font-family: 'Tangerine', cursive;*/
 .div_tabla_envios{
     display: inline;
 }
+
+.tamaño_video{
+    width: 90%;
+    height: 50vh;
+}
+
+.div_video{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 @media (min-width: 767px) {
 
@@ -263,7 +279,7 @@ font-family: 'Tangerine', cursive;*/
         color: whitesmoke;
     }
 
-    .parrafo_envios_movil{
+    .parrafo_movil{
         display: none;
     }
 
@@ -274,6 +290,11 @@ font-family: 'Tangerine', cursive;*/
     .div_tabla_envios{
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+    }
+
+    .tamaño_video{
+        width: 560px;
+        height: 315px;
     }
 
 }
