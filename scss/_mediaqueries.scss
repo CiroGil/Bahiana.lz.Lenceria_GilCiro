@@ -14,7 +14,7 @@
         display: flex;
         order: 3;}
     .alto_header_hijos_redes{
-        .icono{color: $color-bh;
+        .icono{color:map-get($colores, b1);
         font-size: 2em;
         padding-top: 50%;}
         .insta_face{display: none;}}}
@@ -33,10 +33,10 @@
 /*ESPECIFICO DE PAGINAS*/
 .fila_mallas{justify-content: space-between;}
 .parrafo_pages{display: inline;
-        background-color: $color-nt;
-        font-family: $fuente-2;
+        background-color:map-get($colores, n2);
+        font-family:map-get($fuentes, f2);
         font-size: 1.5em;
-        color: $color-bh;}
+        color:map-get($colores, b1);}
 .parrafo_movil{display: none;}
 .alto_mapa{height: 50vh;}
 .div_tabla_envios{padding-top: 0.5rem;

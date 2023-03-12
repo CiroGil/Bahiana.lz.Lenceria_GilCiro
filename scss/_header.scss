@@ -1,24 +1,24 @@
 .fondo_header{
-   background-color: $color-n;
+   background-color:map-get($colores, n1);
     .alto_header_hijos{
         height: 10vh;
         .cabecera__logo{
             height: 130%;}
         .titulo{
-            color: $color-bh;
-            font-family: $fuente-1;
+            color:map-get($colores, b1);
+            font-family:map-get($fuentes, f1);
             font-size: 4.5em;}
         .subtitulo{
             display: none;
-            font-family: $fuente-2;
+            font-family:map-get($fuentes, f2);
             font-size: 1rem;
-            color: $color-bh;}
+            color:map-get($colores, b1);}
         .fondo_nav{
-            background-color: $color-nt;}
+            background-color:map-get($colores, n2);}
         .anclas{
             text-decoration: none;
-            color: $color-bh;
-            font-family: $fuente-2;}}
+            color:map-get($colores, b1);
+            font-family:map-get($fuentes, f2);}}
     .relleno_1{display: none;}
     .relleno_2{display: none;}
     .colum_redes{
@@ -32,7 +32,7 @@
         .cabecera__derecha__wsp__text{
             display: none;}
         .icono{
-            color: $color-bh;
+            color:map-get($colores, b1);
             font-size: 1.2em;}}
 }
 

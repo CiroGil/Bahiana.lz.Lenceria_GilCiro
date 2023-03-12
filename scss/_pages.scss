@@ -1,27 +1,27 @@
 .titulo_pages{
-    background-color: $color-nt;
-    font-family: $fuente-2;
+    background-color:map-get($colores, n2);
+    font-family:map-get($fuentes, f2);
     font-size: 2em;
-    color: $color-bh;}
+    color:map-get($colores, b1);}
 .subtitulo_pages{
-    background-color: $color-nt;
-    font-family: $fuente-2;
+    background-color:map-get($colores, n2);
+    font-family:map-get($fuentes, f2);
     font-size: 1.5em;
-    color: $color-bh;}
+    color:map-get($colores, b1);}
 .parrafo_pages{display: none;}
-.texto_card{font-family: $fuente-2;
+.texto_card{font-family:map-get($fuentes, f2);
     font-weight: bold;
-    color: $color-n;}
+    color:map-get($colores, n1);}
 .fila_mallas{justify-content: center;}
 .parrafo_movil{display: inline;
-    background-color: $color-nt;
-    font-family: $fuente-2;
+    background-color:map-get($colores, n2);
+    font-family:map-get($fuentes, f2);
     font-size: 1em;
-    color: $color-bh;}
+    color:map-get($colores, b1);}
 .alto_mapa{height: 50vh;}
-.tabla_envios{background-color: $color-nt; 
-    color: $color-bh;}
+.tabla_envios{background-color:map-get($colores, n2);
+    color:map-get($colores, b1);}
 .div_tabla_envios{display: inline;}
 .tamaño_video{width: 90%;
     height: 50vh;}
-.div_video{background-color: $color-nt;}
+.div_video{background-color:map-get($colores, n2);}

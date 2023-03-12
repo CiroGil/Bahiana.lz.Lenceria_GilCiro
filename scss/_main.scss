@@ -1,4 +1,4 @@
 
-.contenido_pagina_principal{background-image: $gradient;
+.contenido_pagina_principal{background-image:map-get($colores, g1);
     .contenedor_galeria_img{width: 100vw;
         .img_galeria{max-width: 100%}}}
