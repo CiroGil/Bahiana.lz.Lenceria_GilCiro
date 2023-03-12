@@ -1,87 +1,46 @@
 @media (min-width: 767px) {     
-   
-    .colum_logo{
-        order: 1;
-    }
-
-    .colum_titulo{
-        order: 2;
-    }
-    
+/*HEADER*/
+.fondo_header{
+    .colum_logo{order: 1;}
+    .colum_titulo{order: 2;}
+    .relleno_1{order: 4;
+    display: inline;}
+    .colum_nav{height: 8vh;
+    order: 5;}
+    .relleno_2{order: 6;
+    display: inline;}
     .colum_redes{
         text-align: right;
         display: flex;
-        order: 3;
-    }
-    
-    .colum_nav{
-        height: 8vh;
-        order: 5;
-    }
-    
-    .relleno_1{
-        order: 4;
-        display: inline;
-    }
-
-    .relleno_2{
-        order: 6;
-        display: inline;
-    }
-
-    .icono{
-        color: $color-bh;
+        order: 3;}
+    .alto_header_hijos_redes{
+        .icono{color: $color-bh;
         font-size: 2em;
-        padding-top: 50%;
-       }
-
-    .insta_face{
-        display: none;
-    }
-
-    .contenedor_galeria_img{
-        width: 40vw;
-    }
-
-    .redes_footer{
-        display: inline-block;
-        text-align: center;
-    }
-
-    .relleno_3{
-        display:inline;
-    }
-    .relleno_4{
-        display:inline;
-    }
-
-    .fila_mallas{
-        justify-content: space-between;
-    }
-
-    .parrafo_pages{
-        display: inline;
+        padding-top: 50%;}
+        .insta_face{display: none;}}}
+/*HEADER*/
+/*MAIN*/
+.contenido_pagina_principal{
+    .contenedor_galeria_img{width: 40vw;}}
+/*MAIN*/
+/*FOOTER*/
+.fondo_footer{
+    .redes_footer{display: inline-block;
+    text-align: center;}
+    .relleno_3{display:inline;}
+    .relleno_4{display:inline;}}
+/*FOOTER*/
+/*ESPECIFICO DE PAGINAS*/
+.fila_mallas{justify-content: space-between;}
+.parrafo_pages{display: inline;
         background-color: $color-nt;
         font-family: $fuente-2;
         font-size: 1.5em;
-        color: $color-bh;
-    }
-
-    .parrafo_movil{
-        display: none;
-    }
-
-    .alto_mapa{
-        height: 50vh;
-    }
-
-    .div_tabla_envios{
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .tamaño_video{
-        width: 560px;
-        height: 315px;
-    }
-}
+        color: $color-bh;}
+.parrafo_movil{display: none;}
+.alto_mapa{height: 50vh;}
+.div_tabla_envios{padding-top: 0.5rem;
+    padding-bottom: 0.5rem;}
+.tamaño_video{ width: 560px;
+    height: 315px;}}
+/*ESPECIFICO DE PAGINAS*/
