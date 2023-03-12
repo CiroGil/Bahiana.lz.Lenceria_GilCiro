@@ -1,0 +1,54 @@
+.fondo_footer{
+    background-color: $color-n; 
+}
+
+.alto_ayuda{
+    height: 5vh;
+}
+
+.alto_lista{
+    height: 1em;
+}
+
+.anclas_footer{
+    text-decoration: none;
+    font-family: $fuente-2;
+    font-size: 0.8em;
+    color: $color-bh;
+}
+
+.texto_ayuda{
+    font-family: $fuente-2;
+    font-size: 1.5em;
+    color: $color-bh;
+}
+
+.redes_footer{
+    display: none;
+}
+
+.marcas_opacidad{
+    width: 20%;
+    opacity: 0.3;
+}
+
+.icono_footer{
+    color: $color-bh;
+    font-size: 2em;
+    padding-top: 10%;
+}
+
+.relleno_1{
+    display: none;
+}
+
+.relleno_2{
+    display: none;
+}
+
+.relleno_3{
+    display: none;
+}
+.relleno_4{
+    display: none;
+}
