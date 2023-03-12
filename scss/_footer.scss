@@ -10,14 +10,10 @@
             font-size: 2em;
             padding-top: 10%;}}
     .redes_footer{display: none;} 
-    .relleno_3{display: none;}
-    .relleno_4{display: none;}
+    .relleno_3{@extend .redes_footer}
+    .relleno_4{@extend .redes_footer}
     .alto_lista{height: 1em;
-        .anclas_footer{
-            text-decoration: none;
-            font-family:map-get($fuentes, f2);
-            font-size: 0.8em;
-            color:map-get($colores, b1);}}
+        .anclas_footer{@include anclas(0.8em)}}
     .marcas_opacidad{width: 20%;
         opacity: 0.3;}
 }

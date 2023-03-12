@@ -1,13 +1,7 @@
 .titulo_pages{
-    background-color:map-get($colores, n2);
-    font-family:map-get($fuentes, f2);
-    font-size: 2em;
-    color:map-get($colores, b1);}
+    @include titulos-subtitulos(2em)}
 .subtitulo_pages{
-    background-color:map-get($colores, n2);
-    font-family:map-get($fuentes, f2);
-    font-size: 1.5em;
-    color:map-get($colores, b1);}
+    @include titulos-subtitulos(1.5em)}
 .parrafo_pages{display: none;}
 .texto_card{font-family:map-get($fuentes, f2);
     font-weight: bold;

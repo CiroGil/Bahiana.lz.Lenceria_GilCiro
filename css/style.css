@@ -26,10 +26,9 @@
     .fondo_header .alto_header_hijos .anclas {
       text-decoration: none;
       color: whitesmoke;
-      font-family: "Poiret One"; }
-  .fondo_header .relleno_1 {
-    display: none; }
-  .fondo_header .relleno_2 {
+      font-family: "Poiret One";
+      font-size: none; }
+  .fondo_header .relleno_1, .fondo_header .relleno_2, .fondo_header .alto_header_hijos_redes .cabecera__derecha__ubi__text, .fondo_header .alto_header_hijos_redes .cabecera__derecha__wsp__text {
     display: none; }
   .fondo_header .colum_redes {
     display: flex;
@@ -37,10 +36,6 @@
     align-items: center; }
   .fondo_header .alto_header_hijos_redes {
     height: 8vh; }
-    .fondo_header .alto_header_hijos_redes .cabecera__derecha__ubi__text {
-      display: none; }
-    .fondo_header .alto_header_hijos_redes .cabecera__derecha__wsp__text {
-      display: none; }
     .fondo_header .alto_header_hijos_redes .icono {
       color: whitesmoke;
       font-size: 1.2em; }
@@ -55,14 +50,14 @@
 .titulo_pages {
   background-color: rgba(0, 0, 0, 0.5);
   font-family: "Poiret One";
-  font-size: 2em;
-  color: whitesmoke; }
+  color: whitesmoke;
+  font-size: 2em; }
 
 .subtitulo_pages {
   background-color: rgba(0, 0, 0, 0.5);
   font-family: "Poiret One";
-  font-size: 1.5em;
-  color: whitesmoke; }
+  color: whitesmoke;
+  font-size: 1.5em; }
 
 .parrafo_pages {
   display: none; }
@@ -111,19 +106,15 @@
       color: whitesmoke;
       font-size: 2em;
       padding-top: 10%; }
-  .fondo_footer .redes_footer {
-    display: none; }
-  .fondo_footer .relleno_3 {
-    display: none; }
-  .fondo_footer .relleno_4 {
+  .fondo_footer .redes_footer, .fondo_footer .relleno_3, .fondo_footer .relleno_4 {
     display: none; }
   .fondo_footer .alto_lista {
     height: 1em; }
     .fondo_footer .alto_lista .anclas_footer {
       text-decoration: none;
+      color: whitesmoke;
       font-family: "Poiret One";
-      font-size: 0.8em;
-      color: whitesmoke; }
+      font-size: 0.8em; }
   .fondo_footer .marcas_opacidad {
     width: 20%;
     opacity: 0.3; }
@@ -134,7 +125,7 @@
     order: 1; }
   .fondo_header .colum_titulo {
     order: 2; }
-  .fondo_header .relleno_1 {
+  .fondo_header .relleno_1, .fondo_header .relleno_2, .fondo_header .alto_header_hijos_redes .cabecera__derecha__ubi__text, .fondo_header .alto_header_hijos_redes .cabecera__derecha__wsp__text {
     order: 4;
     display: inline; }
   .fondo_header .colum_nav {
@@ -159,12 +150,10 @@
     width: 40vw; }
   /*MAIN*/
   /*FOOTER*/
-  .fondo_footer .redes_footer {
+  .fondo_footer .redes_footer, .fondo_footer .relleno_3, .fondo_footer .relleno_4 {
     display: inline-block;
     text-align: center; }
-  .fondo_footer .relleno_3 {
-    display: inline; }
-  .fondo_footer .relleno_4 {
+  .fondo_footer .relleno_3, .fondo_footer .relleno_4 {
     display: inline; }
   /*FOOTER*/
   /*ESPECIFICO DE PAGINAS*/

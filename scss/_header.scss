@@ -15,12 +15,9 @@
             color:map-get($colores, b1);}
         .fondo_nav{
             background-color:map-get($colores, n2);}
-        .anclas{
-            text-decoration: none;
-            color:map-get($colores, b1);
-            font-family:map-get($fuentes, f2);}}
+        .anclas{@include anclas(none)}}
     .relleno_1{display: none;}
-    .relleno_2{display: none;}
+    .relleno_2{@extend .relleno_1;}
     .colum_redes{
         display: flex;
         justify-content: space-evenly;
@@ -28,9 +25,9 @@
     .alto_header_hijos_redes{
         height: 8vh;
         .cabecera__derecha__ubi__text{
-            display: none;}
+            @extend .relleno_1;}
         .cabecera__derecha__wsp__text{
-            display: none;}
+            @extend .relleno_1;}
         .icono{
             color:map-get($colores, b1);
             font-size: 1.2em;}}

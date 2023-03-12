@@ -1,0 +1,13 @@
+@mixin titulos-subtitulos($tamañoletra){
+    background-color:map-get($colores, n2);
+    font-family:map-get($fuentes, f2);
+    color:map-get($colores, b1);
+    font-size: $tamañoletra;
+}
+
+@mixin anclas($tamañoancla){
+    text-decoration: none;
+    color:map-get($colores, b1);
+    font-family:map-get($fuentes, f2);
+    font-size:$tamañoancla;
+}

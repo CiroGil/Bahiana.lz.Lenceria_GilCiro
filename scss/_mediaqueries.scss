@@ -28,7 +28,7 @@
     .redes_footer{display: inline-block;
     text-align: center;}
     .relleno_3{display:inline;}
-    .relleno_4{display:inline;}}
+    .relleno_4{@extend .relleno_3;}}
 /*FOOTER*/
 /*ESPECIFICO DE PAGINAS*/
 .fila_mallas{justify-content: space-between;}
