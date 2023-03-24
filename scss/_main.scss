@@ -1,4 +1,5 @@
 
 .contenido_pagina_principal{background-image:map-get($colores, g1);
-    .contenedor_galeria_img{width: 100vw;
-        .img_galeria{max-width: 100%}}}
+    .contenedor_galeria_img{width: 100vw;&:hover{background-color:map-get($colores, b2)}
+        .img_galeria{max-width: 90%};
+        .parrafo_img{@include anclas(2em); color:black;}}}
