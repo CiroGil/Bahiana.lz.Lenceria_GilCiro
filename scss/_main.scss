@@ -1,5 +1,7 @@
 
 .contenido_pagina_principal{background-image:map-get($colores, g1);
-    .contenedor_galeria_img{width: 100vw;&:hover{background-color:map-get($colores, b2)}
-        .img_galeria{max-width: 90%};
-        .parrafo_img{@include anclas(2em); color:black;}}}
+    .contenedor_galeria_img{width: 100vw;
+        .img_galeria{max-width: 90%;};
+        .div_parrafo_img{position: absolute; bottom: 0; right: 0; left: 0; height: 100%;display: none;
+            .parrafo_img{@include anclas(4em); position: absolute;bottom: 50%; right: 0; left: 0}} &:hover .div_parrafo_img {display: block;}; 
+            &:hover .img_galeria{filter: grayscale(100%)}}}
