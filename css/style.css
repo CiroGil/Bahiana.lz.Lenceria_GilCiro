@@ -28,7 +28,7 @@
       color: whitesmoke;
       font-family: "Poiret One";
       font-size: none; }
-  .fondo_header .relleno_1, .fondo_header .relleno_2, .fondo_header .alto_header_hijos_redes .cabecera__derecha__ubi__text, .fondo_header .alto_header_hijos_redes .cabecera__derecha__wsp__text {
+  .fondo_header .relleno_1, .fondo_header .relleno_2 {
     display: none; }
   .fondo_header .colum_redes {
     display: flex;
@@ -36,6 +36,8 @@
     align-items: center; }
   .fondo_header .alto_header_hijos_redes {
     height: 8vh; }
+    .fondo_header .alto_header_hijos_redes .cabecera__derecha__ubi__text, .fondo_header .alto_header_hijos_redes .cabecera__derecha__wsp__text {
+      display: none; }
     .fondo_header .alto_header_hijos_redes .icono {
       color: whitesmoke;
       font-size: 1.2em; }
@@ -145,7 +147,7 @@
     order: 1; }
   .fondo_header .colum_titulo {
     order: 2; }
-  .fondo_header .relleno_1, .fondo_header .relleno_2, .fondo_header .alto_header_hijos_redes .cabecera__derecha__ubi__text, .fondo_header .alto_header_hijos_redes .cabecera__derecha__wsp__text {
+  .fondo_header .relleno_1, .fondo_header .relleno_2 {
     order: 4;
     display: inline; }
   .fondo_header .colum_nav {

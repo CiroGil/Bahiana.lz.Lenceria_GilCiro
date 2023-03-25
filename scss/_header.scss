@@ -25,9 +25,9 @@
     .alto_header_hijos_redes{
         height: 8vh;
         .cabecera__derecha__ubi__text{
-            @extend .relleno_1;}
+            display: none}
         .cabecera__derecha__wsp__text{
-            @extend .relleno_1;}
+            @extend .cabecera__derecha__ubi__text}
         .icono{
             color:map-get($colores, b1);
             font-size: 1.2em;}}
